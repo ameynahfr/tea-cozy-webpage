@@ -13,16 +13,18 @@ body {
     padding: 0;
 }
 
-header {
-    border-bottom: 1px solid seashell;
-    display: fixed;
-    top: 0;
-    left: 0;
-    z-index: 1;
-    width: 100%;
-    background-color: black; 
-    opacity: 0.9;
-    color: seashell;
+
+    header {
+        border-bottom: 1px solid seashell;
+        position: fixed; /* Use 'position' instead of 'display' */
+        top: 0;
+        left: 0;
+        z-index: 1;
+        width: 100%; /* Set the width to 100% to span the entire viewport */
+        background-color: black; /* Add a background color to your header */
+        opacity: 0.9;
+        color: seashell;
+
 }
 
 nav {
@@ -59,8 +61,10 @@ span {
     margin-right: 20px;
 }
 
+
 main {
     margin-top: 60px;
+}
 
 
 .mission {
