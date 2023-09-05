@@ -16,12 +16,12 @@ body {
 
     header {
         border-bottom: 1px solid seashell;
-        position: fixed; /* Use 'position' instead of 'display' */
+        position: fixed; 
         top: 0;
         left: 0;
         z-index: 1;
-        width: 100%; /* Set the width to 100% to span the entire viewport */
-        background-color: black; /* Add a background color to your header */
+        width: 100%; 
+        background-color: black; 
         opacity: 0.9;
         color: seashell;
 
