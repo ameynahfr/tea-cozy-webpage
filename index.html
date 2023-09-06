@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Tea Cozy</title>
+    <title>The Tea Cozy</title>
     <link rel="stylesheet" type="text/css" href="index.css" />
     <link rel="stylesheet" type="text/css" href="styles/style.css" />
   </head>
@@ -14,9 +14,13 @@
         </div>
 
         <div class="content">
-          <span class="nav-item">Mission</span>
-          <span class="nav-item">Featured Tea</span>
-          <span class="nav-item">Locations</span>
+          <a href="#mission"><span class="nav-item">Mission</span></a>
+          <a href="#inventory-title"
+            ><span class="nav-item">Featured Tea</span></a
+          >
+          <a href="#location-container"
+            ><span class="nav-item">Locations</span></a
+          >
         </div>
       </nav>
     </header>
@@ -24,7 +28,7 @@
     <!--MAIN-->
     <main>
       <!--Misson Statement-->
-      <div class="mission">
+      <div id="mission">
         <div class="heading-bg">
           <img id="mission-bg" src="img-mission-background.jpg" alt="bg" />
         </div>
@@ -38,7 +42,7 @@
       </div>
 
       <!--Inventory title-->
-      <div class="inventory-title">
+      <div id="inventory-title">
         <h2>Tea of the Month</h2>
         <h4>What's Sleeping at The Tea Cozy?</h4>
       </div>
@@ -78,7 +82,7 @@
       </div>
 
       <!--Locations-->
-      <div class="location-container">
+      <div id="location-container">
         <div class="location-bg">
           <img
             id="location-bg"
@@ -125,3 +129,4 @@
     </footer>
   </body>
 </html>
+
